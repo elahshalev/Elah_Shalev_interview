@@ -39,9 +39,8 @@ This is one of many standard reports created at Elektra Music Group within the A
     'Peak Date':'peak_date',
     'Latest Position':'latest_pos',
     'Position Change':'pos_chg',
-    'Historical Streams' : 'hist_streams',
     'Historical Positions':'hist_pos',
-    'Streams':'daily_streams'`
+
 
 
 5.  Ensure the dtype for the `artist` and `track` column is “str”. Some artist and track names are strictly integers.   

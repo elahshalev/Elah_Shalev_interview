@@ -39,7 +39,7 @@ This is one of many standard reports created at Elektra Music Group within the A
     'Peak Date':'peak_date',
     'Latest Position':'latest_pos',
     'Position Change':'pos_chg',
-    'Historical Positions':'hist_pos',
+    'Historical Positions':'hist_pos',`
 
 
 

@@ -94,10 +94,11 @@ This is one of many standard reports created at Elektra Music Group within the A
 2. You will have to authorize your App and User in order to access the Spotify API.  The [Authorization Code](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow) option provides the correct authorization flow for your work by providing a Refresh Token. It is recommended to create a `state` value and authorize all of your [scopes](https://developer.spotify.com/documentation/general/guides/scopes/). Once you have received your Client ID and Client Secret in addition to authorizing your App/User, you are ready to access Spotify's API. 
 
 
-4.  Create a scraping technique centered around `track_id` column.  With each track_id, obtain the track_uri, song popularity score, and release_date.
+4.  Create a scraping script/notebook.  With each track_id, obtain the track_uri, song popularity score, and release_date.
 
 
 5. With each track's album_id, obtain the track's label/distributor.  
+
 
 6. With each track's artist_id, obtain the artist's popularity score.  
 

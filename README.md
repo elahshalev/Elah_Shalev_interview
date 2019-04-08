@@ -17,9 +17,8 @@ This is one of many standard reports created at Elektra Music Group within the A
     'Latest Charting Date', 
     'Spotify Track Link', 
     'Spotify Artist Link', 
-    'Spotify Album Link', 
-    'Historical Streams', 
-    'Streams'`
+    'Spotify Album Link',
+    'Chart Cycle'`
     
     
 4.  Rename the following columns:

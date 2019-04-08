@@ -53,19 +53,19 @@ This is one of many standard reports created at Elektra Music Group within the A
 7.  Create a `prev_pos` (Previous Position) column that takes the second to last value within the `hist_pos` column. For example, if a track's chart positions are `[5, 4, 6, 3, 2]`, the `prev_pos` value would be 3 (`latest_pos` would be 2). If there is no previous position, enter the `prev_pos` value as the current charting position.  
 
 
-8. Create a `pos_chg` (Position Change) column that subtracts `prev_pos` from `latest_pos`.  For example, if a track had a `latest_pos` = 3 and `prev_pos` = 2, the `pos_chg` would be 1.  Tracks that do not have a `prev_pos` value should have a value of 0 for `pos_chg`.
+8.  Create a `pos_chg` (Position Change) column that subtracts `prev_pos` from `latest_pos`.  For example, if a track had a `latest_pos` = 3 and `prev_pos` = 2, the `pos_chg` would be 1.  Tracks that do not have a `prev_pos` value should have a value of 0 for `pos_chg`.
 
 
-9. Eliminate all rows that contain either an artist within the "off_limits_artists.xlsx" spreadsheet or "off_limits_labels.xlsx" spreadsheet located in the "spreadsheet" directory.  Ensure that casing is not considered when matching artist/label names with the associate Off Limits spreadsheets.  There should be 173 rows remaining. 
+9.  Eliminate all rows that contain either an artist within the "off_limits_artists.xlsx" spreadsheet or "off_limits_labels.xlsx" spreadsheet located in the "spreadsheet" directory.  Ensure that casing is not considered when matching artist/label names with the associate Off Limits spreadsheets.  There should be 173 rows remaining. 
 
 
-10. Create a `freq` (Frequency) column that counts the number of times an ARTIST appears within the dataframe.  You can count either with the `artist` or `artist_id` column.  
+10.  Create a `freq` (Frequency) column that counts the number of times an ARTIST appears within the dataframe.  You can count either with the `artist` or `artist_id` column.  
 
 
-11. Sort the dataframe by `latest_pos` ASC then `freq` DESC.
+11.  Sort the dataframe by `latest_pos` ASC then `freq` DESC.
 
 
-12. Rearrange the columns in the following order:
+12.  Rearrange the columns in the following order:
 
     `'artist', 
     'track', 
@@ -94,31 +94,31 @@ This is one of many standard reports created at Elektra Music Group within the A
 2. You will have to authorize your App and User in order to access the Spotify API.  The [Authorization Code](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow) option provides the correct authorization flow for your work by providing a Refresh Token. It is recommended to create a `state` value and authorize all of your [scopes](https://developer.spotify.com/documentation/general/guides/scopes/). Once you have received your Client ID and Client Secret in addition to authorizing your App/User, you are ready to access Spotify's API. 
 
 
-4.  Create a scraping script/notebook.  With each track_id, obtain the track_uri, song popularity score, and release_date.
+3.  Create a scraping script/notebook.  With each track_id, obtain the track_uri, song popularity score, and release_date.
 
 
-5. With each track's album_id, obtain the track's label/distributor.  
+4.  With each track's album_id, obtain the track's label/distributor.  
 
 
-6. With each track's artist_id, obtain the artist's popularity score.  
+5.  With each track's artist_id, obtain the artist's popularity score.  
 
 
-7. Replace all values within the dataframe with the newly obtained release_date value, and label value.  
+6.  Replace all values within the dataframe with the newly obtained release_date value, and label value.  
 
 
-8. Create new columns: `track_uri`, `sp` (Song Popularity), and `ap` (Artist Popularity) that fills the dataframe with the track_uri values, song popularity values, and artist popularity values. `ap` will be in list form considering some tracks have multiple artists. 
+7.  Create new columns: `track_uri`, `sp` (Song Popularity), and `ap` (Artist Popularity) that fills the dataframe with the track_uri values, song popularity values, and artist popularity values. `ap` will be in list form considering some tracks have multiple artists. 
 
 
-9.  Drop all rows that have songs released prior to 2018-06-01. There should be 35 rows remaining.  
+8.  Drop all rows that have songs released prior to 2018-06-01. There should be 35 rows remaining.  
 
 
-10. Remove all artists/labels again that appear within the "off_limits_artists.xlsx" and "off_limits_labels.xlsx" spreadsheets located in the "spreadsheet" directory.  There should be 32 rows remaining. 
+9.  Remove all artists/labels again that appear within the "off_limits_artists.xlsx" and "off_limits_labels.xlsx" spreadsheets located in the "spreadsheet" directory.  There should be 32 rows remaining. 
 
 
-11.  Organize the final dataframe by keeping only the first 20 rows.  
+10.  Organize the final dataframe by keeping only the first 20 rows.  
 
 
-12. Arrange your final columns as so:
+11.  Arrange your final columns as so:
 
     `'artist', 
     'track', 
@@ -138,6 +138,10 @@ This is one of many standard reports created at Elektra Music Group within the A
     'week'`
 
 
-13. Using the Spotify API, create a playlist with the final 40 track URIs.  
+12.  Using the Spotify API, create a playlist with the final 40 track URIs.  
 
-14.  Export the final report as an excel spreadsheet 
+
+13.  Export the final report as an excel spreadsheet 
+
+
+14.  Email your code, final report, and playlist link to zachcox@elektra.com

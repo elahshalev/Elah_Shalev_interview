@@ -54,7 +54,7 @@ This is one of many standard reports created at Elektra Music Group within the A
 8.  Create a `pos_chg` (Position Change) column that subtracts `prev_pos` from `latest_pos`.  For example, if a track had a `latest_pos` = 3 and `prev_pos` = 2, the `pos_chg` would be 1.  Tracks that do not have a `prev_pos` value should have a value of 0 for `pos_chg`.
 
 
-9.  Eliminate all rows that contain either an artist within the "off_limits_artists.xlsx" spreadsheet or "off_limits_labels.xlsx" spreadsheet located in the "spreadsheet" directory.  Ensure that casing is not considered when matching artist/label names with the associate Off Limits spreadsheets.  Additionally, use an exact matching filter such as Pandas' "isin" rather than "contains".  There should be 173 rows remaining. 
+9.  Eliminate all rows that contain either an artist within the "off_limits_artists.xlsx" spreadsheet or "off_limits_labels.xlsx" spreadsheet located in the "spreadsheet" directory.  Ensure that casing is not considered when matching artist/label names with the associated Off Limits spreadsheets.  Additionally, use an exact matching filter such as Pandas' "isin" rather than "contains".  There should be 173 rows remaining. HINT: temporarily lowercase the Off Limits spreadsheets and current data within the `label` and `artist` columns to ensure complete matching.
 
 
 10.  Create a `freq` (Frequency) column that counts the number of times an ARTIST appears within the dataframe.  You can count either with the `artist` or `artist_id` column.  

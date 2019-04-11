@@ -60,10 +60,7 @@ This is one of many standard reports created at Elektra Music Group within the A
 10.  Create a `freq` (Frequency) column that counts the number of times an ARTIST appears within the dataframe.  You can count either with the `artist` or `artist_id` column.  
 
 
-11.  Sort the dataframe by `latest_pos` ASC, `days_chart` DESC, then `freq` DESC.
-
-
-12.  Rearrange the columns in the following order:
+11.  Rearrange the columns in the following order:
 
     `'artist', 
     'track', 
@@ -117,7 +114,10 @@ This is one of many standard reports created at Elektra Music Group within the A
 10.  Organize the final dataframe by keeping only the first 20 rows.  
 
 
-11.  Arrange your final columns as so:
+11.  Sort the dataframe by `latest_pos` ASC, `days_chart` DESC, then `freq` DESC.
+
+
+12.  Arrange your final columns as so:
 
     `'artist', 
     'track', 
@@ -138,10 +138,10 @@ This is one of many standard reports created at Elektra Music Group within the A
     'week'`
 
 
-12.  Using the Spotify API, create a playlist with the final 20 track URIs.  
+13.  Using the Spotify API, create a playlist with the final 20 track URIs.  
 
 
-13.  Export the final report as an excel spreadsheet 
+14.  Export the final report as an excel spreadsheet 
 
 
-14.  Email your code, final report, and playlist link to zachcox@elektra.com
+15.  Email your code, final report, and playlist link to zachcox@elektra.com

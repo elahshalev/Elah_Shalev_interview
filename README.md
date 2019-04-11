@@ -111,10 +111,10 @@ This is one of many standard reports created at Elektra Music Group within the A
 9.  Remove all artists/labels again that appear within the "off_limits_artists.xlsx" and "off_limits_labels.xlsx" spreadsheets located in the "spreadsheet" directory.  There should be 32 rows remaining. 
 
 
-10.  Organize the final dataframe by keeping only the first 20 rows.  
+10.  Sort the dataframe by `latest_pos` ASC, `days_chart` DESC, then `freq` DESC.
 
 
-11.  Sort the dataframe by `latest_pos` ASC, `days_chart` DESC, then `freq` DESC.
+11.  Organize the final dataframe by keeping only the first 20 rows.  
 
 
 12.  Arrange your final columns as so:

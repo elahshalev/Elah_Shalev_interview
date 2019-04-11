@@ -138,7 +138,7 @@ This is one of many standard reports created at Elektra Music Group within the A
     'week'`
 
 
-12.  Using the Spotify API, create a playlist with the final 40 track URIs.  
+12.  Using the Spotify API, create a playlist with the final 20 track URIs.  
 
 
 13.  Export the final report as an excel spreadsheet 

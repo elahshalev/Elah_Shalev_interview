@@ -60,7 +60,7 @@ This is one of many standard reports created at Elektra Music Group within the A
 10.  Create a `freq` (Frequency) column that counts the number of times an ARTIST appears within the dataframe.  You can count either with the `artist` or `artist_id` column.  
 
 
-11.  Sort the dataframe by `latest_pos` ASC then `freq` DESC.
+11.  Sort the dataframe by `latest_pos` ASC, `days_chart` DESC, then `freq` DESC.
 
 
 12.  Rearrange the columns in the following order:

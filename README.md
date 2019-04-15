@@ -18,6 +18,8 @@ This is one of many standard reports created at Elektra Music Group within the A
     'Spotify Track Link', 
     'Spotify Artist Link', 
     'Spotify Album Link',
+    'Historical Streams',
+    'Streams',
     'Chart Cycle'`
     
     
@@ -134,8 +136,7 @@ This is one of many standard reports created at Elektra Music Group within the A
     'peak_date', 
     'pos_chg', 
     'hist_pos', 
-    'track_uri', 
-    'week'`
+    'track_uri'` 
 
 
 13.  Using the Spotify API, create a playlist with the final 20 track URIs.  

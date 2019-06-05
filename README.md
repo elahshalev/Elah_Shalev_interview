@@ -18,8 +18,6 @@ This is one of many standard reports created at Elektra Music Group within the A
     'Spotify Track Link', 
     'Spotify Artist Link', 
     'Spotify Album Link',
-    'Historical Streams',
-    'Streams',
     'Chart Cycle'`
     
     

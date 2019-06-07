@@ -143,4 +143,4 @@ This is one of many standard reports created at Elektra Music Group within the A
 14.  Export the final report as an excel spreadsheet 
 
 
-15.  Create a PRIVATE GitHub repository including your code, final report, and playlist link. Make sure to add me (zachcox-elektra) as a collaborator.  Email GitHub link to zachcox@elektra.com
+15.  Upload your entire repository as a PRIVATE GitHub repository including the original dataset, your code, final report, and playlist link in a README. Make sure to add me (zachcox-elektra) as a collaborator.  I should be able to fork + clone the repo and have the code run on my computer without reformatting anything.  Email GitHub link to zachcox@elektra.com

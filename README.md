@@ -4,10 +4,10 @@ This is one of many standard reports created at Elektra Music Group within the A
 # Instructions
 
 ## Part 1
-1.  Download all data within the “spotify_top200_viral50_data” directory
+1.  Fork and clone this repo.  You will upload your own private GitHub at the end containing all of this repo's assets in addition to your code, final spreadsheet report, and playlist link (pasted in a README).  
 
 
-2.  Concatenate all spreadsheets into one, consolidated spreadsheet containing every country and genre.  There should be 1750 total rows with the countries and genres listed above.  
+2.  With the "spotify_top200_viral50_data", concatenate all spreadsheets into one consolidated spreadsheet containing every country and genre.  There should be 1750 total rows with the countries and genres listed above.  
 
 
 3.  Drop the columns: 
@@ -143,4 +143,4 @@ This is one of many standard reports created at Elektra Music Group within the A
 14.  Export the final report as an excel spreadsheet 
 
 
-15.  Upload your entire repository, titled "firstname_lastname_interview", as a PRIVATE GitHub repository including the original dataset, your code, final report, and playlist link in a README. Make sure to add me (zachcox-elektra) as a collaborator. If working in Jupyter Notebooks, have the output of your code displayed.  I should be able to fork + clone the repo and have the code run on my computer without reformatting anything.  Email GitHub link to zachcox@elektra.com
+15.  Upload your entire repository, titled "firstname_lastname_interview", as a PRIVATE GitHub repository including the "interview_test" original assets in addition to your code, final report, and playlist link (pasted in a README). Make sure to add me (zachcox-elektra) as a collaborator. If working in Jupyter Notebooks, have the output of your code displayed.  I should be able to fork + clone the repo and have the code run on my computer without reformatting anything.  Email GitHub link to zachcox@elektra.com

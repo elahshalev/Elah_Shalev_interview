@@ -143,4 +143,4 @@ This is one of many standard reports created at Elektra Music Group within the A
 14.  Export the final report as an excel spreadsheet 
 
 
-15.  Upload your entire repository as a PRIVATE GitHub repository including the original dataset, your code, final report, and playlist link in a README. Make sure to add me (zachcox-elektra) as a collaborator.  I should be able to fork + clone the repo and have the code run on my computer without reformatting anything.  Email GitHub link to zachcox@elektra.com
+15.  Upload your entire repository, titled "firstname_lastname_interview", as a PRIVATE GitHub repository including the original dataset, your code, final report, and playlist link in a README. Make sure to add me (zachcox-elektra) as a collaborator. If working in Jupyter Notebooks, have the output of your code displayed.  I should be able to fork + clone the repo and have the code run on my computer without reformatting anything.  Email GitHub link to zachcox@elektra.com
